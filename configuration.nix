@@ -151,9 +151,19 @@
      wofi
      waybar
      telegram-desktop
-     pkgs.cinnamon.nemo
+     gnome.nautilus
      steam
-     discord
+    # Idk but it seems that discord only works if gl is turned on lol
+    # I don't like this mess over here btw 
+    (pkgs.writeShellApplication {
+      name = "discord";
+      text = "${pkgs.discord}/bin/discord --use-gl=desktop";
+    })
+    (pkgs.makeDesktopItem {
+      name = "discord";
+      exec = "discord";
+      desktopName = "Discord";
+    })
      vscode
      python3
      gcc
@@ -168,8 +178,8 @@
      cava
      pavucontrol
      htop
+     jdk21
    ];
-
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
