@@ -36,8 +36,9 @@
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
-  services.xserver.displayManager.sddm.enable = true;
-  services.xserver.displayManager.sddm.wayland.enable = true;
+  services.displayManager.sddm.enable = true;
+  #services.xserver.displayManager.sddm.enable = true;
+  #services.xserver.displayManager.sddm.wayland.enable = true;
   services.xserver.videoDrivers = ["nvidia"];
   #services.xserver.displayManager.plasma5.enable = true;
   #services.xserver.defaultSession = "plasma";
@@ -178,6 +179,7 @@
      cava
      pavucontrol
      htop
+     jre8
      jdk21
    ];
   # Some programs need SUID wrappers, can be configured further or are
