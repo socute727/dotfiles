@@ -18,6 +18,7 @@ window#waybar {
 	background: #1a1a1a;
 }
 
+#language,
 #workspaces,
 #clock.1,
 #clock.2,
@@ -63,7 +64,7 @@ window#waybar {
 #disk {
 	color: #ffffff;
 }
-
+#language,
 #clock,
 #pulseaudio,
 #memory,
