@@ -1,3 +1,3 @@
 My **nixos** config
 
-![2024-04-23T19:57:28,005451050+05:00](https://github.com/socute727/dotfiles/assets/152518983/c9a269cd-929c-48f2-a816-e164b5111274)
+![2024-04-24T22:40:34,015149742+05:00](https://github.com/socute727/dotfiles/assets/152518983/f37a4a34-f89c-406d-b639-8d5cc9386b9e)
